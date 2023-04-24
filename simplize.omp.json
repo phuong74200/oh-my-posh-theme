@@ -32,7 +32,7 @@
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></>",
           "type": "git"
         }
       ],
