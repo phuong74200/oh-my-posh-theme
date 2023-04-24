@@ -7,7 +7,7 @@
         {
           "foreground": "#37b24d",
           "style": "plain",
-          "template": "@{{ .UserName }} ",
+          "template": "@{{ .UserName }}",
           "type": "session"
         },
         {
@@ -18,22 +18,22 @@
             "home_icon": ""
           },
           "style": "plain",
-          "template": "{{ .Path }}",
+          "template": " {{ .Path }}",
           "type": "path"
         },
         {
-          "style": "plain",
-          "template": " >",
-          "type": "text"
-        },
-        {
-          "foreground": "#ae3ec9",
+          "foreground": "#7048e8",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
           "template": " <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></>",
           "type": "git"
+        },
+        {
+          "style": "plain",
+          "template": " >",
+          "type": "text"
         }
       ],
       "type": "prompt"
