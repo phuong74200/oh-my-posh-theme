@@ -27,7 +27,7 @@
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " {{if .HEAD}} <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></> > {{else}} > {{end}}",
+          "template": " {{if .HEAD}} <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></> {{else}} rthrth {{end}}",
           "type": "git"
         }
       ],
