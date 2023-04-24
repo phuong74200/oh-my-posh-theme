@@ -29,7 +29,7 @@
         {
           "foreground": "#ae3ec9",
           "properties": {
-            "branch_icon": ""
+            "branch_icon": "😂"
           },
           "style": "plain",
           "template": " <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></>",
