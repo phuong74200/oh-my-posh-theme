@@ -22,17 +22,12 @@
           "type": "path"
         },
         {
-          "style": "plain",
-          "template": " >",
-          "type": "text"
-        },
-        {
           "foreground": "#ae3ec9",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></> $",
+          "template": " {{if .HEAD}} <#DDB15F>git:</>{{ .HEAD }}<#DDB15F></> > {{else}} > {{end}}",
           "type": "git"
         }
       ],
