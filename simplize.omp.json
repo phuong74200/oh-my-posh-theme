@@ -11,7 +11,7 @@
           "type": "session"
         },
         {
-          "foreground": "#56B6C2",
+          "foreground": "#4263eb",
           "properties": {
             "style": "agnoster_full",
             "folder_separator_icon": "/",
@@ -27,7 +27,7 @@
           "type": "text"
         },
         {
-          "foreground": "#D4AAFC",
+          "foreground": "#ae3ec9",
           "properties": {
             "branch_icon": ""
           },
